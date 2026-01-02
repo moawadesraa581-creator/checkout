@@ -20,3 +20,6 @@ How to run:
 - Start Apache and MySQL
 - Import database.sql using phpMyAdmin
 - Open http://localhost/checkout/create_order.php
+Payment integration is implemented using PayTabs Hosted Payment API.
+The backend sends payment request data including cart amount, currency, and order ID.
+Due to test environment limitations, the response is handled and logged for validation.
